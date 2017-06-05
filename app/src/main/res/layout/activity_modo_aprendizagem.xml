@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/telafundo"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textScaleX="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha a música:"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="155dp"
+        />
+    <Spinner
+        android:id="@+id/musica"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textScaleX="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o modo:"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="10dp"
+
+        />
+    <Spinner
+        android:id="@+id/modo"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:textScaleX="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o nível:"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/nivel"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:background="#ffff"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textScaleX="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o modo das mãos"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/maos"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bcomecar"
+        android:id="@+id/ButtonComecar"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bparar"
+        android:id="@+id/ButtonParar"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_weight="0.01"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bvoltar"
+        android:id="@+id/ButtonVoltar"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_weight="0.01"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

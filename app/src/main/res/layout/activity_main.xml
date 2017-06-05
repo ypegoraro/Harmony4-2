@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/telafundo"
+    android:weightSum="1">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello there!"
+        android:id="@+id/statusMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bgravacao"
+        android:id="@+id/ButtonGravacao"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/baprendizagem"
+        android:id="@+id/ButtonAprendizagem"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
